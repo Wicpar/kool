@@ -13,7 +13,7 @@ group = 'com.github.kotlin_graphics'
 
 ext {
     moduleName = "${group}.kool"
-    lwjgl_version = "3.2.3"
+    lwjgl_version = "3.2.2"
     lwjgl_natives = current() == WINDOWS ? "windows" : current() == LINUX ? "linux" : "macos"
 }
 
